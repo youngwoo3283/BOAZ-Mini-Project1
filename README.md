@@ -37,7 +37,12 @@ MF으로 추천하기 <br>
 
 
 
-이후 리뷰분석을 하였는데 konlpy와 krwordrank로 키워드를 추출하는 등의 분석을 진행함
+이후 리뷰분석을 하였는데 konlpy와 krwordrank로 키워드를 추출하는 등의 분석을 진행함 <br>
+
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/55152b38-6516-45d6-98ca-39e0c0f77160)
+
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/664a6c93-4ed5-4688-bb76-a22766bad6f1)
+
 
 
 # 결과
