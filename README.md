@@ -15,7 +15,29 @@
 
 
 # 프로젝트 진행 과정 
-신촌의 치킨가게들중에서 한 가게당 100 ~ 300개 정도의 리뷰를 가져와서 약 50개의 가게에서 12000개의 리뷰를 셀레니움을 이용해서 수집함. 수집후에 전처리를 거쳐서 만든 데이터를 이용해서 치킨 가게를 추천함. 이때 통계적 시스템으로는 평균평점이 높은 순으로 추천해주거나, 최근 판매율이 높은 순으로 추천하는 것을 구현하였고, matrix factorization으로는 사용자의 기존 리뷰에 근거한 취향과 알맞는 치킨을 추천하도록 구현하였고, 코사인 유사도를 이용해서는 사용자가 최근에 구매한 가게와 비슷한 가게를 추천하도록 구현함. 이후 리뷰분석을 하였는데 konlpy와 krwordrank로 키워드를 추출하는 등의 분석을 진행함
+신촌의 치킨가게들중에서 한 가게당 100 ~ 300개 정도의 리뷰를 가져와서 약 50개의 가게에서 12000개의 리뷰를 셀레니움을 이용해서 수집함. <br>
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/697bc55c-5fc9-4124-86d4-01dedfdddeef) <br>
+<br>
+
+수집후에 전처리를 거쳐서 만든 데이터를 이용해서 치킨 가게를 추천함. 이때 통계적 시스템으로는 평균평점이 높은 순으로 추천해주거나, 최근 판매율이 높은 순으로 추천하는 것을 구현하였고, matrix factorization으로는 사용자의 기존 리뷰에 근거한 취향과 알맞는 치킨을 추천하도록 구현하였고, 코사인 유사도를 이용해서는 사용자가 최근에 구매한 가게와 비슷한 가게를 추천하도록 구현함. <br>
+
+통계적 방법으로 추천하기 <br>
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/3cb109e8-65a7-4425-a268-0c1a32710499) <br>
+
+
+코사인 유사도 기반으로 추천하기 <br>
+
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/54695f38-ac14-440a-8600-415067851649) <br>
+
+MF으로 추천하기 <br>
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/c84f152d-d0a4-4193-935e-d59e80704b5f)
+![image](https://github.com/youngwoo3283/boaz_project1_mini/assets/69841073/6a53723c-3850-45c5-9bfc-9a1fde33e927)
+
+
+
+
+
+이후 리뷰분석을 하였는데 konlpy와 krwordrank로 키워드를 추출하는 등의 분석을 진행함
 
 
 # 결과
